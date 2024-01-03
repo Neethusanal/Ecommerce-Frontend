@@ -3,6 +3,8 @@ import { Routes,Route } from 'react-router-dom'
 import Login from '../Components/Login'
 import Home from '../Components/Home'
 import { Header } from '../Components/Header'
+import { Error } from '../Components/Error'
+
 
 const UserRoute = () => {
   return (
@@ -15,6 +17,7 @@ const UserRoute = () => {
        
             <Route exact path="/login" element={<Login/>}/>
             <Route exact path="/" element={<Home/>}/>
+            <Route  path ="*" element ={<Error/>}/>
         </Routes>
         
         

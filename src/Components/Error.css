@@ -1,0 +1,25 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .error h1 {
+    color: #ff0000; /* Red color for the error message */
+  }
+  
+  .error a {
+    text-decoration: none;
+    color: #4285f4; /* Blue color for the link */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .error a:hover {
+    text-decoration: underline;
+  }
+  
