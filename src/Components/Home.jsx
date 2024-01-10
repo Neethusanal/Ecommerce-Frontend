@@ -4,8 +4,8 @@ const Home = () => {
   return (
     <>
    
-   <div>
-    <h1>Products</h1>
+   <div className='main'>
+  <h1>products cards</h1>
    </div>
 
     </>
