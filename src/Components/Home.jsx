@@ -1,11 +1,12 @@
 import React from 'react'
+import { Card } from './Card'
 
 const Home = () => {
   return (
     <>
    
    <div className='main'>
-  <h1>products cards</h1>
+  <Card/>
    </div>
 
     </>
